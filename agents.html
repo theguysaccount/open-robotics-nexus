@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Research Agents - Open Robotics Nexus</title>
+    <meta
+      name="description"
+      content="Backend scheduled research agents for keeping the Open Robotics Nexus catalog fresh."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body data-page="agents">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Research sections">
+        <a class="brand" href="index.html#top" aria-label="Open Robotics Nexus home">
+          <span class="brand-mark">ORN</span>
+          <span>
+            <strong>Open Robotics</strong>
+            <em>Nexus</em>
+          </span>
+        </a>
+        <nav class="nav-list">
+          <a href="index.html#catalog" class="nav-link" data-nav="home" data-icon="layout-dashboard">Catalog</a>
+          <a href="lanes.html" class="nav-link" data-nav="lanes" data-icon="git-branch">Research Lanes</a>
+          <a href="index.html#benchmark" class="nav-link" data-nav="benchmark" data-icon="target">Benchmarks</a>
+          <a href="ai.html" class="nav-link" data-nav="ai" data-icon="message-square-text">Community AI</a>
+          <a href="agents.html" class="nav-link active" data-nav="agents" data-icon="radar">Research Agents</a>
+        </nav>
+        <div class="sidebar-panel">
+          <span class="panel-label">Backend</span>
+          <strong>Human-reviewed automation</strong>
+          <p>The public claim is freshness. The backend rule is evidence before publishing.</p>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="page-header">
+          <p class="eyebrow">Backend freshness system</p>
+          <h1>Scheduled agents keep the catalog alive.</h1>
+          <p>
+            This page explains the research automation behind the hub without pretending every crawler result is
+            truth. New findings go into a review queue before they become public claims.
+          </p>
+        </header>
+
+        <section class="metrics-grid page-metrics">
+          <article class="metric-card">
+            <span>Current Records</span>
+            <strong id="agent-catalog-total">0</strong>
+            <small>seeded entries</small>
+          </article>
+          <article class="metric-card">
+            <span>Public Posts</span>
+            <strong>0</strong>
+            <small>human-approved only</small>
+          </article>
+          <article class="metric-card">
+            <span>Review Policy</span>
+            <strong>2x</strong>
+            <small>source evidence minimum</small>
+          </article>
+          <article class="metric-card">
+            <span>Cadence</span>
+            <strong>Daily</strong>
+            <small>discovery sweep</small>
+          </article>
+        </section>
+
+        <section class="dashboard-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Schedule</p>
+              <h2>Agent Workflows</h2>
+            </div>
+            <span class="catalog-status paused">Design only</span>
+          </div>
+
+          <div class="agent-table">
+            <article>
+              <span>Daily</span>
+              <strong>Discovery Sweep</strong>
+              <p>Search GitHub topics, GitHub code, ROS Discourse, Reddit, arXiv, YouTube, Hackaday, OSHWA, newsletters, and robotics blogs.</p>
+            </article>
+            <article>
+              <span>Every 2-3 days</span>
+              <strong>Verification + Deduplication</strong>
+              <p>Confirm licenses, source files, CAD/BOM/docs, duplicate lineage, dead links, abandoned repos, and misleading openness claims.</p>
+            </article>
+            <article>
+              <span>Weekly</span>
+              <strong>Classification + Scoring</strong>
+              <p>Apply lane taxonomy, readiness scoring, velocity scoring, home-robot fit, and missing-evidence tags.</p>
+            </article>
+            <article>
+              <span>Weekly</span>
+              <strong>Benchmark Watcher</strong>
+              <p>Track claims, papers, demos, build logs, telemetry, and third-party reproductions for challenge protocols.</p>
+            </article>
+            <article>
+              <span>Approved only</span>
+              <strong>Publisher</strong>
+              <p>Draft site updates, newsletter notes, and X/Twitter posts after a human confirms the project entry and wording.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="split-section">
+          <div class="challenge-panel">
+            <p class="eyebrow">Crawler targets</p>
+            <h2>Where the agents look</h2>
+            <div class="source-cloud">
+              <a href="https://github.com/topics/robotics" target="_blank" rel="noreferrer">GitHub robotics</a>
+              <a href="https://discourse.ros.org/" target="_blank" rel="noreferrer">ROS Discourse</a>
+              <a href="https://arxiv.org/list/cs.RO/recent" target="_blank" rel="noreferrer">arXiv robotics</a>
+              <a href="https://hackaday.io/projects?tag=robot" target="_blank" rel="noreferrer">Hackaday robots</a>
+              <a href="https://www.oshwa.org/" target="_blank" rel="noreferrer">OSHWA</a>
+              <a href="https://github.com/stephane-caron/awesome-open-source-robots" target="_blank" rel="noreferrer">Awesome robots</a>
+            </div>
+          </div>
+          <div class="benchmark-board">
+            <div class="board-header">
+              <h3>Publishing Guardrails</h3>
+              <span>Required</span>
+            </div>
+            <ol class="protocol-list">
+              <li>Do not call a project open source unless license evidence is present.</li>
+              <li>Separate software-open from hardware-open, CAD-open, and BOM-open.</li>
+              <li>Label scraped findings as candidates until manually reviewed.</li>
+              <li>Keep public updates factual, sourced, and modest.</li>
+              <li>Send uncertain claims to the community AI as questions, not assertions.</li>
+            </ol>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

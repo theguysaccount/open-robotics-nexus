@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Community AI - Open Robotics Nexus</title>
+    <meta
+      name="description"
+      content="A catalog-aware community AI prototype for open source robotics researchers and builders."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://opengraph.githubassets.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body data-page="ai">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Research sections">
+        <a class="brand" href="index.html#top" aria-label="Open Robotics Nexus home">
+          <span class="brand-mark">ORN</span>
+          <span>
+            <strong>Open Robotics</strong>
+            <em>Nexus</em>
+          </span>
+        </a>
+        <nav class="nav-list">
+          <a href="index.html#catalog" class="nav-link" data-nav="home" data-icon="layout-dashboard">Catalog</a>
+          <a href="lanes.html" class="nav-link" data-nav="lanes" data-icon="git-branch">Research Lanes</a>
+          <a href="index.html#benchmark" class="nav-link" data-nav="benchmark" data-icon="target">Benchmarks</a>
+          <a href="ai.html" class="nav-link active" data-nav="ai" data-icon="message-square-text">Community AI</a>
+          <a href="agents.html" class="nav-link" data-nav="agents" data-icon="radar">Research Agents</a>
+        </nav>
+        <div class="sidebar-panel">
+          <span class="panel-label">Prototype</span>
+          <strong>Catalog-aware AI</strong>
+          <p>This static version searches local catalog context and stores opt-in notes in your browser only.</p>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="page-header">
+          <p class="eyebrow">Community AI</p>
+          <h1>Talk to the hub, then teach the hub what you know.</h1>
+          <p>
+            The production version should be a real retrieval assistant with consented community memory. This
+            prototype answers from the current catalog and captures local field notes so the interaction model is real.
+          </p>
+        </header>
+
+        <section class="ai-layout">
+          <div class="chat-panel">
+            <div class="prompt-row">
+              <button type="button" data-prompt="What open source robot arm should I build first?">Starter arm</button>
+              <button type="button" data-prompt="What is missing in stair climbing robots?">Stairs gap</button>
+              <button type="button" data-prompt="Compare humanoid projects with CAD and BOM evidence.">Humanoids</button>
+              <button type="button" data-prompt="Which projects are best for low-cost home robots?">Home robot fit</button>
+            </div>
+            <div id="chat-log" class="chat-log" aria-live="polite"></div>
+            <form id="chat-form" class="chat-form">
+              <label class="search-box">
+                <i data-lucide="message-circle"></i>
+                <input id="chat-input" type="text" placeholder="Ask about projects, lanes, gaps, or what to build..." />
+              </label>
+              <button class="solid-button" type="submit">
+                <i data-lucide="send"></i>
+                Ask
+              </button>
+            </form>
+          </div>
+
+          <aside class="memory-panel">
+            <p class="eyebrow">Community memory</p>
+            <h2>What have you been doing?</h2>
+            <p>
+              The assistant should be curious. Share build notes, repo links, dead ends, or opinions. In this static
+              prototype, notes stay in localStorage until a backend exists.
+            </p>
+            <form id="memory-form" class="memory-form">
+              <label>
+                <span>Name or handle</span>
+                <input name="name" type="text" placeholder="Optional" />
+              </label>
+              <label>
+                <span>Focus</span>
+                <input name="focus" type="text" placeholder="Robot arm, stair base, ROS stack..." />
+              </label>
+              <label>
+                <span>Field note</span>
+                <textarea name="body" rows="5" placeholder="What have you built, found, tried, or noticed?"></textarea>
+              </label>
+              <button class="solid-button" type="submit">
+                <i data-lucide="database-zap"></i>
+                Add Local Note
+              </button>
+            </form>
+            <div id="memory-list" class="memory-list"></div>
+          </aside>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

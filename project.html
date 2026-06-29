@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project - Open Robotics Nexus</title>
+    <meta name="description" content="Open source robotics project evidence and readiness details." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://opengraph.githubassets.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body data-page="project">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Research sections">
+        <a class="brand" href="index.html#top" aria-label="Open Robotics Nexus home">
+          <span class="brand-mark">ORN</span>
+          <span>
+            <strong>Open Robotics</strong>
+            <em>Nexus</em>
+          </span>
+        </a>
+        <nav class="nav-list">
+          <a href="index.html#catalog" class="nav-link" data-nav="home" data-icon="layout-dashboard">Catalog</a>
+          <a href="lanes.html" class="nav-link" data-nav="lanes" data-icon="git-branch">Research Lanes</a>
+          <a href="index.html#benchmark" class="nav-link" data-nav="benchmark" data-icon="target">Benchmarks</a>
+          <a href="ai.html" class="nav-link" data-nav="ai" data-icon="message-square-text">Community AI</a>
+          <a href="agents.html" class="nav-link" data-nav="agents" data-icon="radar">Research Agents</a>
+        </nav>
+        <div class="sidebar-panel">
+          <span class="panel-label">Project Page</span>
+          <strong>Evidence first</strong>
+          <p>Every project page should show source links, artifact coverage, scores, and related work.</p>
+        </div>
+      </aside>
+
+      <main id="project-page-root" class="workspace" aria-live="polite"></main>
+    </div>
+  </body>
+</html>

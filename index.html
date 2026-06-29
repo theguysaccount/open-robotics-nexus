@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Open Robotics Nexus</title>
+    <meta
+      name="description"
+      content="A dashboard and research hub for open source robotics projects, resources, benchmarks, and discovery agents."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://opengraph.githubassets.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body data-page="home">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Research sections">
+        <a class="brand" href="index.html#top" aria-label="Open Robotics Nexus home">
+          <span class="brand-mark">ORN</span>
+          <span>
+            <strong>Open Robotics</strong>
+            <em>Nexus</em>
+          </span>
+        </a>
+
+        <nav class="nav-list">
+          <a href="index.html#catalog" class="nav-link active" data-nav="home" data-icon="layout-dashboard">Catalog</a>
+          <a href="lanes.html" class="nav-link" data-nav="lanes" data-icon="git-branch">Research Lanes</a>
+          <a href="index.html#benchmark" class="nav-link" data-nav="benchmark" data-icon="target">Benchmarks</a>
+          <a href="ai.html" class="nav-link" data-nav="ai" data-icon="message-square-text">Community AI</a>
+          <a href="agents.html" class="nav-link" data-nav="agents" data-icon="radar">Research Agents</a>
+        </nav>
+
+        <div class="sidebar-panel">
+          <span class="panel-label">Current Focus</span>
+          <strong>Low-cost home robots</strong>
+          <p>Humanoids, arms, hands, mobile bases, stair mobility, and reusable AI/control stacks.</p>
+        </div>
+      </aside>
+
+      <main id="top" class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Public research dashboard</p>
+            <h1>Open source robotics, organized for builders.</h1>
+          </div>
+          <div class="topbar-actions">
+            <a class="ghost-button" href="open_source_robotics_hub.md">
+              <i data-lucide="file-text"></i>
+              Brief
+            </a>
+            <a class="solid-button" href="#catalog">
+              <i data-lucide="search"></i>
+              Explore
+            </a>
+          </div>
+        </header>
+
+        <section class="metrics-grid" aria-label="Catalog metrics">
+          <article class="metric-card">
+            <span>Seed Entries</span>
+            <strong id="metric-total">0</strong>
+            <small>projects, lists, tools</small>
+          </article>
+          <article class="metric-card">
+            <span>Hardware Candidates</span>
+            <strong id="metric-hardware">0</strong>
+            <small>robots and subsystems</small>
+          </article>
+          <article class="metric-card">
+            <span>Open Readiness</span>
+            <strong id="metric-readiness">0%</strong>
+            <small>avg. artifact coverage</small>
+          </article>
+          <article class="metric-card">
+            <span>Home Robot Fit</span>
+            <strong id="metric-home-fit">0%</strong>
+            <small>avg. strategic score</small>
+          </article>
+        </section>
+
+        <section id="catalog" class="dashboard-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Catalog</p>
+              <h2>Project Radar</h2>
+            </div>
+            <div class="catalog-status" id="catalog-status">Ready</div>
+          </div>
+
+          <div class="control-surface" aria-label="Catalog filters">
+            <label class="search-box">
+              <i data-lucide="search"></i>
+              <input id="search-input" type="search" placeholder="Search projects, tags, maintainers..." />
+            </label>
+
+            <label>
+              <span>Lane</span>
+              <select id="lane-filter">
+                <option value="all">All lanes</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Kind</span>
+              <select id="kind-filter">
+                <option value="all">Everything</option>
+                <option value="project">Projects</option>
+                <option value="resource">Resources</option>
+                <option value="stack">Stacks</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Sort</span>
+              <select id="sort-select">
+                <option value="homeFit">Home fit</option>
+                <option value="readiness">Open readiness</option>
+                <option value="velocity">Shipping velocity</option>
+                <option value="name">Name</option>
+              </select>
+            </label>
+
+            <div class="toggle-row" role="group" aria-label="Artifact filters">
+              <button class="filter-toggle" type="button" data-filter="bom">BOM</button>
+              <button class="filter-toggle" type="button" data-filter="cad">CAD</button>
+              <button class="filter-toggle" type="button" data-filter="sim">Sim</button>
+              <button class="filter-toggle" type="button" data-filter="stair">Stairs</button>
+            </div>
+          </div>
+
+          <div class="catalog-layout">
+            <div class="project-grid" id="project-grid" aria-live="polite"></div>
+            <aside class="detail-panel" id="detail-panel" aria-label="Selected project"></aside>
+          </div>
+        </section>
+
+        <section id="lanes" class="dashboard-section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Taxonomy</p>
+              <h2>Research Lanes</h2>
+            </div>
+          </div>
+          <div class="lane-grid" id="lane-grid"></div>
+        </section>
+
+        <section id="benchmark" class="split-section">
+          <div class="challenge-panel">
+            <p class="eyebrow">Benchmark</p>
+            <h2>Open Home Robot Challenge</h2>
+            <div class="challenge-list">
+              <div><span>$5k</span><p>Total BOM target for a buildable prototype.</p></div>
+              <div><span>60m</span><p>Minimum useful runtime on commodity batteries.</p></div>
+              <div><span>2kg</span><p>Household object range for carry or manipulation tasks.</p></div>
+              <div><span>7 files</span><p>Code, firmware, CAD, schematics, BOM, docs, license.</p></div>
+            </div>
+          </div>
+          <div class="benchmark-board">
+            <div class="board-header">
+              <h3>Target Protocol</h3>
+              <span>Draft</span>
+            </div>
+            <ol class="protocol-list">
+              <li>Navigate a furnished home route with flooring changes and thresholds.</li>
+              <li>Traverse a standard staircase or submit a credible stair-capable subsystem.</li>
+              <li>Pick, carry, or hand off objects from 0.5 kg to 2.0 kg.</li>
+              <li>Publish telemetry, benchmark video, build files, and known failure cases.</li>
+              <li>Document which parts are commodity, custom fabricated, or hard to source.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="community-ai" class="split-section">
+          <div class="challenge-panel">
+            <p class="eyebrow">Community Layer</p>
+            <h2>Ask the Nexus AI</h2>
+            <p class="large-copy">
+              A catalog-aware assistant should help researchers find projects, compare lanes, and feed back what
+              they are building so the hub becomes smarter through the community.
+            </p>
+            <div class="topbar-actions left">
+              <a class="solid-button" href="ai.html">
+                <i data-lucide="message-square-text"></i>
+                Open AI
+              </a>
+              <a class="ghost-button" href="agents.html">
+                <i data-lucide="radar"></i>
+                Backend Agents
+              </a>
+            </div>
+          </div>
+          <div class="benchmark-board">
+            <div class="board-header">
+              <h3>Community Memory Loop</h3>
+              <span>Prototype</span>
+            </div>
+            <ol class="protocol-list">
+              <li>Visitors ask about open projects, lanes, buildability, and missing benchmarks.</li>
+              <li>The assistant answers from catalog context and asks what the visitor has seen or built.</li>
+              <li>Shared notes become candidate evidence for human review.</li>
+              <li>Reviewed evidence improves project pages, lane maps, and scheduled discovery prompts.</li>
+            </ol>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
