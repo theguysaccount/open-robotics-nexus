@@ -1,0 +1,61 @@
+# Nightly: pull stars, commits and releases for every catalog repo, re-score openness from each
+# repository's file tree, regenerate the static pages, badges and sitemap, commit, wait for the
+# Pages build, check the live site and ping IndexNow with the pages that changed.
+# Fails safely: if the GitHub API fails for most repos, or the tests fail, nothing is committed
+# and the last good deploy stays live. Third-party actions are pinned to commit SHAs.
+name: Refresh
+
+on:
+  schedule:
+    - cron: "47 3 * * *" # nightly, off the top of the hour
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write # commit the refreshed data, pages and badges
+      pages: write # request a Pages build if the bot's push doesn't start one
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Pull GitHub signals and score openness
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 ops/refresh.py
+
+      - name: Regenerate pages, badges and sitemap
+        run: python3 ops/build.py --changed-urls "$RUNNER_TEMP/changed-urls.txt"
+
+      - name: Tests (refuse to commit broken pages)
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Commit
+        id: commit
+        run: |
+          git add data badges projects sitemap.xml robots.txt
+          if git diff --cached --quiet; then echo "Nothing changed."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Nightly refresh: GitHub signals, openness scores, pages and badges"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for the Pages build, then check the live site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 ops/health.py --wait-build "${{ steps.commit.outputs.sha }}"
+
+      - name: Ping IndexNow with the pages that changed
+        if: steps.commit.outputs.changed == 'true'
+        run: python3 ops/indexnow.py --key-file 23cb19988fae6276e078102ebd6ec6da.txt --base "https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}/" --urls-file "$RUNNER_TEMP/changed-urls.txt"

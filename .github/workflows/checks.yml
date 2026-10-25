@@ -1,0 +1,53 @@
+# Tests on every push and pull request. After a push to main it waits for the GitHub Pages
+# branch build of that commit, checks the live site and pings IndexNow with the sitemap.
+# Pages deploys straight from main, so merge only pull requests whose checks passed.
+# Third-party actions are pinned to commit SHAs.
+name: Checks
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - ".github/keepalive"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: JavaScript syntax
+        run: node --check app.js
+
+      - name: Tests (catalog parser, detection, generated pages, badges, sitemap)
+        run: python3 -m unittest discover -s tests -v
+
+  live:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: read
+      pages: write # read the Pages build status; request a build if none starts
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Wait for the Pages build, then check the live site
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 ops/health.py --wait-build "$GITHUB_SHA"
+
+      # Only after the live check passed. Never fails the run.
+      - name: Ping IndexNow
+        run: python3 ops/indexnow.py --key-file 23cb19988fae6276e078102ebd6ec6da.txt --base "https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}/" --sitemap "https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}/sitemap.xml"
