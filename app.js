@@ -1412,6 +1412,7 @@ function initProjectPage() {
       <div class="detail-actions">
         <a class="solid-button" href="${project.url}" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i> Open source page</a>
         <a class="ghost-button" href="ai.html?q=${encodeURIComponent(project.name)}"><i data-lucide="message-square-text"></i> Ask the AI</a>
+        <a class="ghost-button" href="projects/${encodeURIComponent(project.id)}.html"><i data-lucide="award"></i> Live signals &amp; badge</a>
       </div>
     </header>
 

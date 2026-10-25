@@ -1,0 +1,6 @@
+# Crawlers only read robots.txt at the host root (https://theguysaccount.github.io/robots.txt),
+# which is generated from this file's Sitemap line. Kept here so the sitemap is easy to find.
+User-agent: *
+Allow: /
+
+Sitemap: https://theguysaccount.github.io/open-robotics-nexus/sitemap.xml

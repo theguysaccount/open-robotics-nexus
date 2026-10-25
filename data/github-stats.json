@@ -1,0 +1,2566 @@
+{
+ "generated_at": "2026-10-25T21:27:35Z",
+ "source": "GitHub REST API",
+ "artifacts": [
+  "code",
+  "cad",
+  "bom",
+  "docs",
+  "firmware",
+  "sim",
+  "license"
+ ],
+ "projects": {
+  "berkeley-humanoid-lite": {
+   "repo": "HybridRobotics/berkeley-humanoid-lite",
+   "url": "https://github.com/HybridRobotics/berkeley-humanoid-lite",
+   "stars": 1993,
+   "forks": 318,
+   "open_issues": 8,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-03-10T20:15:00Z",
+   "description": "Codebase for Berkeley Humanoid Lite",
+   "latest_release": {
+    "tag": "v1.1.0",
+    "published_at": "2025-09-07T21:00:33Z",
+    "url": "https://github.com/HybridRobotics/berkeley-humanoid-lite/releases/tag/v1.1.0"
+   },
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-03-10T20:14:59Z",
+   "files": 60,
+   "submodules": [
+    "source/berkeley_humanoid_lite_assets",
+    "source/berkeley_humanoid_lite_lowlevel"
+   ],
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 33,
+     "examples": [
+      "scripts/list_envs.py",
+      ".vscode/tools/setup_vscode.py",
+      "scripts/rsl_rl/cli_args.py"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 3,
+     "examples": [
+      "scripts/sim2real/visualize.py",
+      "scripts/sim2sim/play_mujoco.py",
+      "source/berkeley_humanoid_lite/berkeley_humanoid_lite/environments/mujoco.py"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENCE"
+     ]
+    }
+   },
+   "openness": 3,
+   "checked_at": "2026-10-25T21:27:35Z"
+  },
+  "xlerobot": {
+   "repo": "Vector-Wangel/XLeRobot",
+   "url": "https://github.com/Vector-Wangel/XLeRobot",
+   "stars": 5638,
+   "forks": 620,
+   "open_issues": 39,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-06T22:14:18Z",
+   "description": "XLeRobot: Practical Dual-Arm Mobile Home Robot for $660",
+   "latest_release": null,
+   "commits_90d": 11,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-06T22:14:18Z",
+   "files": 933,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 131,
+     "examples": [
+      "XLeVR/vr_monitor.py",
+      "docs/generate_robot_docs.py",
+      "docs/generate_task_docs.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 183,
+     "examples": [
+      "hardware/Brushlessmotor connector.stl",
+      "hardware/Ender_Follower_SO101.stl",
+      "hardware/SO101_soft_fin.stl"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 568,
+     "examples": [
+      "docs/Makefile",
+      "docs/README.md",
+      "docs/generate_robot_docs.py"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 193,
+     "examples": [
+      "simulation/Isaac_sim/readme.md",
+      "simulation/Isaac_sim/xlerobot.zip",
+      "simulation/Maniskill/readme.md"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 5,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "alohamini": {
+   "repo": "liyiteng/AlohaMini",
+   "url": "https://github.com/liyiteng/AlohaMini",
+   "stars": 1090,
+   "forks": 136,
+   "open_issues": 6,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-07-01T16:17:19Z",
+   "description": "Open-Source Dual-Arm Mobile Robot with Motorized Lift",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-07-01T16:17:18Z",
+   "files": 319,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 6,
+     "examples": [
+      "examples/pi0.5_openpi/alohamini_policy.py",
+      "examples/pi0.5_openpi/data_loader.py",
+      "examples/pi0.5_openpi/evaluate_bi.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 185,
+     "examples": [
+      "AlohaMini1/hardware/arms/stl/D_Base_SO101_Lekiwi.stl",
+      "AlohaMini1/hardware/arms/stl/D_Base_motor_holder_SO101.stl",
+      "AlohaMini1/hardware/arms/stl/D_Motor_holder_SO101_Base.stl"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 2,
+     "examples": [
+      "AlohaMini1/docs/BOM.md",
+      "AlohaMini2/docs/BOM.md"
+     ]
+    },
+    "docs": {
+     "found": true,
+     "count": 99,
+     "examples": [
+      "AlohaMini1/docs/BOM.md",
+      "AlohaMini1/docs/hardware_assembly.md",
+      "AlohaMini1/docs/software_setup.md"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 92,
+     "examples": [
+      "AlohaMini1/simulation/README.md",
+      "AlohaMini1/simulation/picture/P1.png",
+      "AlohaMini1/simulation/picture/P2.png"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 6,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "lekiwi": {
+   "repo": "SIGRobotics-UIUC/LeKiwi",
+   "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
+   "stars": 1480,
+   "forks": 162,
+   "open_issues": 13,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-08-05T09:25:59Z",
+   "description": "LeKiwi - Low-Cost Mobile Manipulator",
+   "latest_release": null,
+   "commits_90d": 7,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-08-05T09:25:59Z",
+   "files": 159,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": true,
+     "count": 78,
+     "examples": [
+      "3DPrintMeshes/base_camera_mount.stl",
+      "3DPrintMeshes/base_plate_layer1.stl",
+      "3DPrintMeshes/base_plate_layer2.stl"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 2,
+     "examples": [
+      "BOM.md",
+      "DynamixelLeKiwi/BOM.md"
+     ]
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 47,
+     "examples": [
+      "URDF/JOINT_NAMES.md",
+      "URDF/LeKiwi.urdf",
+      "URDF/meshes/4-Omni-Directional-Wheel_Single_Body-v1-1.stl"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE.txt"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "low-cost-robot": {
+   "repo": "AlexanderKoch-Koch/low_cost_robot",
+   "url": "https://github.com/AlexanderKoch-Koch/low_cost_robot",
+   "stars": 3422,
+   "forks": 302,
+   "open_issues": 24,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2024-09-21T17:21:21Z",
+   "description": "",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2024-09-21T17:21:19Z",
+   "files": 57,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 8,
+     "examples": [
+      "dynamixel.py",
+      "robot.py",
+      "simulation.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 39,
+     "examples": [
+      "hardware/follower/follower_arm.f3z",
+      "hardware/leader/leader_arm.f3z",
+      "hardware/follower/step/arm.step"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 13,
+     "examples": [
+      "simulation/__init__.py",
+      "simulation/interface.py",
+      "simulation/low_cost_robot/low-cost-arm.urdf"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "so-arm100": {
+   "repo": "TheRobotStudio/SO-ARM100",
+   "url": "https://github.com/TheRobotStudio/SO-ARM100",
+   "stars": 7879,
+   "forks": 731,
+   "open_issues": 89,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-06T07:26:52Z",
+   "description": "Standard Open Arm 100",
+   "latest_release": null,
+   "commits_90d": 11,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-06T07:26:52Z",
+   "files": 241,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": true,
+     "count": 153,
+     "examples": [
+      "Mini/Mini_SO_100_01g.3mf",
+      "Mini/Mini_SO_100_01g.STL",
+      "Optional/Raised_Base/Raised_Base_Extension.stl"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "docs/assets/servo_studio_dashboard.png"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 57,
+     "examples": [
+      "Simulation/README.md",
+      "Simulation/SO100/so100.rrd",
+      "Simulation/SO100/so100.urdf"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "am-arm": {
+   "repo": "liyiteng/AM-ARM",
+   "url": "https://github.com/liyiteng/AM-ARM",
+   "stars": 87,
+   "forks": 8,
+   "open_issues": 1,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-06-18T10:36:17Z",
+   "description": "an affordable, open-source 6+1 DoF robot arm compatible with LeRobot",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-06-18T10:35:49Z",
+   "files": 135,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": true,
+     "count": 75,
+     "examples": [
+      "am-arm200-pro/urdf/am-arm200pro-meshes/left_Base.STL",
+      "am-arm200-pro/urdf/am-arm200pro-meshes/left_Fixed_Jaw.STL",
+      "am-arm200-pro/urdf/am-arm200pro-meshes/left_Lower_Arm.STL"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "am-arm200/bom.md"
+     ]
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 20,
+     "examples": [
+      "am-arm200-pro/urdf/am-arm200pro-meshes/left_Base.STL",
+      "am-arm200-pro/urdf/am-arm200pro-meshes/left_Fixed_Jaw.STL",
+      "am-arm200-pro/urdf/am-arm200pro-meshes/left_Lower_Arm.STL"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "openarm": {
+   "repo": "enactic/openarm",
+   "url": "https://github.com/enactic/openarm",
+   "stars": 3640,
+   "forks": 385,
+   "open_issues": 17,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-23T13:45:56Z",
+   "description": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
+   "latest_release": {
+    "tag": "1.1",
+    "published_at": "2025-10-31T11:41:47Z",
+    "url": "https://github.com/enactic/openarm/releases/tag/1.1"
+   },
+   "commits_90d": 58,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-23T13:45:56Z",
+   "files": 559,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 7,
+     "examples": [
+      "website/docusaurus.config.ts",
+      "website/sidebars.ts",
+      "website/src/utils/priceUtils.ts"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": true,
+     "count": 115,
+     "examples": [
+      "website/versioned_docs/version-1.0/hardware/bill-of-materials/_category_.json",
+      "website/versioned_docs/version-1.0/hardware/bill-of-materials/arm-manufactured.mdx",
+      "website/versioned_docs/version-1.0/hardware/bill-of-materials/arm-off-the-shelf.mdx"
+     ]
+    },
+    "docs": {
+     "found": true,
+     "count": 63,
+     "examples": [
+      "website/docusaurus.config.ts",
+      "website/docs/api-reference/_category_.json",
+      "website/docs/api-reference/description.mdx"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 12,
+     "examples": [
+      "website/docs/simulation/_category_.json",
+      "website/docs/simulation/isaac-lab.mdx",
+      "website/docs/simulation/mujoco.mdx"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 5,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "bcn3d-moveo": {
+   "repo": "BCN3D/BCN3D-Moveo",
+   "url": "https://github.com/BCN3D/BCN3D-Moveo",
+   "stars": 2010,
+   "forks": 574,
+   "open_issues": 47,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2022-03-01T11:37:05Z",
+   "description": "Open Source 3D Printed Robotic Arm for educational purposes",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2016-10-03T14:34:48Z",
+   "files": 229,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 71,
+     "examples": [
+      "FIRMWARE/Marlin_BCN3D_Moveo/BlinkM.cpp",
+      "FIRMWARE/Marlin_BCN3D_Moveo/BlinkM.h",
+      "FIRMWARE/Marlin_BCN3D_Moveo/Configuration.h"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 142,
+     "examples": [
+      "CAD files/1M1B.SLDPRT",
+      "CAD files/1M2A.SLDPRT",
+      "CAD files/1M3.SLDASM"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "BOM/BCN3D Moveo BOM.pdf"
+     ]
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": true,
+     "count": 74,
+     "examples": [
+      "FIRMWARE/Marlin_BCN3D_Moveo/BlinkM.cpp",
+      "FIRMWARE/Marlin_BCN3D_Moveo/BlinkM.h",
+      "FIRMWARE/Marlin_BCN3D_Moveo/Configuration.h"
+     ]
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 5,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "amazing-hand": {
+   "repo": "pollen-robotics/AmazingHand",
+   "url": "https://github.com/pollen-robotics/AmazingHand",
+   "stars": 2481,
+   "forks": 291,
+   "open_issues": 22,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-04-23T10:21:30Z",
+   "description": "Code and model to control the AH!",
+   "latest_release": {
+    "tag": "v1.0",
+    "published_at": "2026-04-01T14:21:02Z",
+    "url": "https://github.com/pollen-robotics/AmazingHand/releases/tag/v1.0"
+   },
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-04-03T09:46:22Z",
+   "files": 196,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 15,
+     "examples": [
+      "PythonExample/AmazingHand_Demo.py",
+      "PythonExample/AmazingHand_Demo_Both.py",
+      "PythonExample/AmazingHand_FingerTest.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 93,
+     "examples": [
+      "cad/README.md",
+      "cad/step/Amazing Hand Parts - Distal.step",
+      "cad/step/Amazing Hand Parts - Distal_Shell.step"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "assets/BOM.jpg"
+     ]
+    },
+    "docs": {
+     "found": true,
+     "count": 7,
+     "examples": [
+      "docs/AmazingHand_3DprintingTips.pdf",
+      "docs/AmazingHand_Assembly.pdf",
+      "docs/AmazingHand_Overview.pdf"
+     ]
+    },
+    "firmware": {
+     "found": true,
+     "count": 2,
+     "examples": [
+      "ArduinoExample/Amazing_Hand-Finger_Test.ino",
+      "ArduinoExample/Amazing_Hand_Demo.ino"
+     ]
+    },
+    "sim": {
+     "found": true,
+     "count": 85,
+     "examples": [
+      "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/additional.xml",
+      "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/config.json",
+      "Demo/AHSimulation/AHSimulation/AH_Left/mjcf/joints_properties.xml"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 7,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "linorobot2": {
+   "repo": "linorobot/linorobot2",
+   "url": "https://github.com/linorobot/linorobot2",
+   "stars": 1064,
+   "forks": 247,
+   "open_issues": 51,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "jazzy",
+   "pushed_at": "2026-10-06T00:57:49Z",
+   "description": "Autonomous mobile robots (2WD, 4WD, Mecanum Drive)",
+   "latest_release": null,
+   "commits_90d": 16,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-09-29T10:52:53Z",
+   "files": 136,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 18,
+     "examples": [
+      "linorobot2_gazebo/setup.py",
+      "linorobot2_bringup/launch/bringup.launch.py",
+      "linorobot2_bringup/launch/custom_robot.launch.py"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 33,
+     "examples": [
+      "mkdocs.yml",
+      "docs/architecture.md",
+      "docs/base_controller.md"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 23,
+     "examples": [
+      "linorobot2_description/urdf/2wd_properties.urdf.xacro",
+      "linorobot2_description/urdf/4wd_properties.urdf.xacro",
+      "linorobot2_description/urdf/mecanum_properties.urdf.xacro"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "open-duck-mini": {
+   "repo": "apirrone/Open_Duck_Mini",
+   "url": "https://github.com/apirrone/Open_Duck_Mini",
+   "stars": 4486,
+   "forks": 568,
+   "open_issues": 31,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "v2",
+   "pushed_at": "2026-01-31T10:28:29Z",
+   "description": "Making a mini version of the BDX droid. https://discord.gg/UtJZsgfQGe",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-01-31T10:28:29Z",
+   "files": 410,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 86,
+     "examples": [
+      "mini_bdx/__init__.py",
+      "experiments/LeRobot/new_record_episodes_hdf5_NOT_WORKING.py",
+      "experiments/LeRobot/record_episodes_hdf5.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 180,
+     "examples": [
+      "print/battery_pack_lid.stl",
+      "print/body_back.stl",
+      "print/body_front.stl"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 12,
+     "examples": [
+      "docs/assembly_guide.md",
+      "docs/configure_motors.md",
+      "docs/feetech_identification.md"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 9,
+     "examples": [
+      "experiments/mujoco/.gitignore",
+      "experiments/mujoco/mujoco_placo_walk_engine_demo.py",
+      "experiments/mujoco/mujoco_record_amp.py"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 5,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "mini-pupper": {
+   "repo": "mangdangroboticsclub/mini_pupper",
+   "url": "https://github.com/mangdangroboticsclub/mini_pupper",
+   "stars": 1179,
+   "forks": 197,
+   "open_issues": 0,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-23T09:44:27Z",
+   "description": "Open-source physical AI platform bridging ROS and RL — from learning to earning.",
+   "latest_release": null,
+   "commits_90d": 24,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-23T09:44:27Z",
+   "files": 13,
+   "submodules": [],
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 9,
+     "examples": [
+      "docs/images/BAM.gif",
+      "docs/images/MD-300-150.dimension.jpeg",
+      "docs/images/MD-300-150.mainSpec.jpg"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 2,
+   "checked_at": "2026-10-25T21:27:35Z"
+  },
+  "stair-traversal-tutorial": {
+   "repo": "tu-darmstadt-ros-pkg/autonomous_stair_traversal_tutorial",
+   "url": "https://github.com/tu-darmstadt-ros-pkg/autonomous_stair_traversal_tutorial",
+   "stars": 1,
+   "forks": 2,
+   "open_issues": 0,
+   "license": "BSD-3-Clause",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2016-04-10T18:40:47Z",
+   "description": "Repo providing a ROS workspace setup that allows for the simulation of a tracked robot capable of autonomous stair climbing",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2016-04-10T18:40:20Z",
+   "files": 4,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 1,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "stair-climber-ivlabs": {
+   "repo": "IvLabs/Stair-Climber",
+   "url": "https://github.com/IvLabs/Stair-Climber",
+   "stars": 32,
+   "forks": 1,
+   "open_issues": 1,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2020-09-15T07:47:00Z",
+   "description": "Version 3 of Autonomous Stair Climbing Robot",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2020-09-15T07:46:59Z",
+   "files": 10,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 7,
+     "examples": [
+      "DDPG.ipynb",
+      "DDPG_HER.ipynb",
+      "DQN.ipynb"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 2,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "poppy-humanoid": {
+   "repo": "poppy-project/poppy-humanoid",
+   "url": "https://github.com/poppy-project/poppy-humanoid",
+   "stars": 1084,
+   "forks": 292,
+   "open_issues": 4,
+   "license": null,
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2021-12-06T18:19:35Z",
+   "description": "Poppy Humanoid is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations. ",
+   "latest_release": {
+    "tag": "3.0.0",
+    "published_at": "2020-11-03T20:20:31Z",
+    "url": "https://github.com/poppy-project/poppy-humanoid/releases/tag/3.0.0"
+   },
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2021-12-06T18:19:35Z",
+   "files": 114,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 18,
+     "examples": [
+      "software/setup.py",
+      "hardware/STL/extract_3D_printable_STL_parts.py",
+      "hardware/URDF/update_URDF.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 54,
+     "examples": [
+      "hardware/Poppy_Humanoid.SLDASM",
+      "hardware/STL/extract_3D_printable_STL_parts.py",
+      "hardware/URDF/meshes/abdomen_respondable.STL"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 17,
+     "examples": [
+      "doc/README.md",
+      "doc/img/poppy-humanoid-github.jpg",
+      "hardware/doc/README.md"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 57,
+     "examples": [
+      "hardware/URDF/manifest.xml",
+      "hardware/URDF/update_URDF.py",
+      "hardware/URDF/launch/display.launch"
+     ]
+    },
+    "license": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "reachy-mini": {
+   "repo": "pollen-robotics/reachy_mini",
+   "url": "https://github.com/pollen-robotics/reachy_mini",
+   "stars": 1590,
+   "forks": 330,
+   "open_issues": 149,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-24T21:50:34Z",
+   "description": "Reachy Mini's SDK",
+   "latest_release": {
+    "tag": "v1.12.0",
+    "published_at": "2026-10-02T15:25:21Z",
+    "url": "https://github.com/pollen-robotics/reachy_mini/releases/tag/v1.12.0"
+   },
+   "commits_90d": 100,
+   "commits_90d_capped": true,
+   "last_commit_at": "2026-10-23T12:42:47Z",
+   "files": 933,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 342,
+     "examples": [
+      "conftest.py",
+      "examples/custom_media_manager.py",
+      "examples/goto_interpolation_playground.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 159,
+     "examples": [
+      "src/reachy_mini/descriptions/reachy_mini/mjcf/assets/5w_speaker.stl",
+      "src/reachy_mini/descriptions/reachy_mini/mjcf/assets/antenna.stl",
+      "src/reachy_mini/descriptions/reachy_mini/mjcf/assets/antenna_body_3dprint.stl"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 144,
+     "examples": [
+      "docs/AGENT_TESTING.md",
+      "docs/contributing.md",
+      "docs/generate.md"
+     ]
+    },
+    "firmware": {
+     "found": true,
+     "count": 6,
+     "examples": [
+      "src/reachy_mini/assets/firmware/CHANGELOG.md",
+      "src/reachy_mini/assets/firmware/reachymini_ua_io16_6ch_lin_v2.1.4.bin",
+      "src/reachy_mini/assets/firmware/reachymini_ua_io16_lin_v2.1.2.bin"
+     ]
+    },
+    "sim": {
+     "found": true,
+     "count": 313,
+     "examples": [
+      "docs/source/platforms/simulation/get_started.md",
+      "src/reachy_mini/daemon/backend/mujoco/__init__.py",
+      "src/reachy_mini/daemon/backend/mujoco/backend.py"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 6,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "lerobot": {
+   "repo": "huggingface/lerobot",
+   "url": "https://github.com/huggingface/lerobot",
+   "stars": 28463,
+   "forks": 5949,
+   "open_issues": 874,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-25T17:09:45Z",
+   "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
+   "latest_release": {
+    "tag": "v0.6.1",
+    "published_at": "2026-08-03T14:19:42Z",
+    "url": "https://github.com/huggingface/lerobot/releases/tag/v0.6.1"
+   },
+   "commits_90d": 100,
+   "commits_90d_capped": true,
+   "last_commit_at": "2026-10-23T13:00:16Z",
+   "files": 1298,
+   "submodules": [],
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 1010,
+     "examples": [
+      "conftest.py",
+      "setup.py",
+      "tests/__init__.py"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 122,
+     "examples": [
+      "docs/README.md",
+      "docs/source/_toctree.yml",
+      "docs/source/act.mdx"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "examples/isaac_teleop_to_so101/isaac_teleop/config_isaac_teleop.py"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:27:35Z"
+  },
+  "awesome-open-source-robots": {
+   "repo": "stephane-caron/awesome-open-source-robots",
+   "url": "https://github.com/stephane-caron/awesome-open-source-robots",
+   "stars": 315,
+   "forks": 34,
+   "open_issues": 0,
+   "license": "CC0-1.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-11T11:14:14Z",
+   "description": "A curated list of awesome robots that are open source",
+   "latest_release": null,
+   "commits_90d": 3,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-11T11:14:13Z",
+   "files": 20,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 1,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "awesome-robotic-arms": {
+   "repo": "adafruit/awesome-open-source-robotic-arms",
+   "url": "https://github.com/adafruit/awesome-open-source-robotic-arms",
+   "stars": 41,
+   "forks": 4,
+   "open_issues": 2,
+   "license": "CC0-1.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-07T18:08:52Z",
+   "description": "A curated list of open source robots worldwide",
+   "latest_release": null,
+   "commits_90d": 3,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-07T18:08:51Z",
+   "files": 4,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 1,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "awesome-humanoid-learning": {
+   "repo": "YanjieZe/awesome-humanoid-robot-learning",
+   "url": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
+   "stars": 2853,
+   "forks": 169,
+   "open_issues": 1,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-23T02:08:34Z",
+   "description": "A Paper List for Humanoid Robot Learning.",
+   "latest_release": null,
+   "commits_90d": 74,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-23T02:08:32Z",
+   "files": 13,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 4,
+     "examples": [
+      "scripts/fetch_arxiv.py",
+      "scripts/generate_growth.py",
+      "scripts/generate_wordcloud.py"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 2,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "robot-descriptions": {
+   "repo": "robot-descriptions/awesome-robot-descriptions",
+   "url": "https://github.com/robot-descriptions/awesome-robot-descriptions",
+   "stars": 1692,
+   "forks": 149,
+   "open_issues": 2,
+   "license": "CC0-1.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-11T11:12:35Z",
+   "description": "A curated list of awesome robot descriptions (URDF, MJCF)",
+   "latest_release": null,
+   "commits_90d": 7,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-11T11:12:34Z",
+   "files": 59,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 1,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "asimov-v1": {
+   "repo": "menloresearch/asimov-1",
+   "url": "https://github.com/menloresearch/asimov-1",
+   "stars": 1331,
+   "forks": 229,
+   "open_issues": 6,
+   "license": "CERN-OHL-S-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-22T11:39:06Z",
+   "description": "v1 of Asimov, an open-source humanoid robot ",
+   "latest_release": null,
+   "commits_90d": 10,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-22T11:38:54Z",
+   "files": 362,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "scripts/generate_fabrication_manifest.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 276,
+     "examples": [
+      "mechanical/naming_convention.png",
+      "mechanical/ASV1/Docs/ASV1_Bearings_Assembly.pdf",
+      "mechanical/ASV1/FullBodyAssembly/Asimov_1.STEP"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 25,
+     "examples": [
+      "mechanical/ASV1/Docs/ASV1_Bearings_Assembly.pdf",
+      "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_100_05A.pdf",
+      "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_100_08A.pdf"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 2,
+     "examples": [
+      "sim-model/asimov_1_25dof/urdf/asimov_1_25dof.urdf",
+      "sim-model/asimov_1_27dof/urdf/asimov_1_27dof.urdf"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 0,
+     "examples": []
+    }
+   },
+   "openness": 5,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "robotis-op3": {
+   "repo": "ROBOTIS-GIT/ROBOTIS-OP3",
+   "url": "https://github.com/ROBOTIS-GIT/ROBOTIS-OP3",
+   "stars": 162,
+   "forks": 64,
+   "open_issues": 6,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2025-02-26T06:42:35Z",
+   "description": "ROS packages for the ROBOTIS OP3",
+   "latest_release": {
+    "tag": "0.2.1",
+    "published_at": "2018-03-26T07:08:15Z",
+    "url": "https://github.com/ROBOTIS-GIT/ROBOTIS-OP3/releases/tag/0.2.1"
+   },
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2024-12-13T19:04:51Z",
+   "files": 100,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 43,
+     "examples": [
+      "op3_action_module/src/action_module.cpp",
+      "op3_balance_control/src/op3_balance_control.cpp",
+      "op3_base_module/src/base_module.cpp"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 2,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "open-manipulator-x": {
+   "repo": "ROBOTIS-GIT/open_manipulator",
+   "url": "https://github.com/ROBOTIS-GIT/open_manipulator",
+   "stars": 673,
+   "forks": 239,
+   "open_issues": 7,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-23T12:45:58Z",
+   "description": "AI Manipulator and Open Manipulator",
+   "latest_release": {
+    "tag": "5.1.4",
+    "published_at": "2026-10-19T08:54:45Z",
+    "url": "https://github.com/ROBOTIS-GIT/open_manipulator/releases/tag/5.1.4"
+   },
+   "commits_90d": 19,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-19T07:49:25Z",
+   "files": 318,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 88,
+     "examples": [
+      "open_manipulator_bringup/setup.py",
+      "open_manipulator_teleop/setup.py",
+      "open_manipulator_bringup/launch/camera_realsense.launch.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 51,
+     "examples": [
+      "open_manipulator_description/meshes/omx_f/follower_01_base.stl",
+      "open_manipulator_description/meshes/omx_f/follower_02_base_tilt_Revised.stl",
+      "open_manipulator_description/meshes/omx_f/follower_03_middle_verticle.stl"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 44,
+     "examples": [
+      "open_manipulator_bringup/worlds/empty_world.sdf",
+      "open_manipulator_description/gazebo/omx_f.gazebo.xacro",
+      "open_manipulator_description/gazebo/omx_l.gazebo.xacro"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "parol6": {
+   "repo": "Source-Robotics/PAROL6-Desktop-robot-arm",
+   "url": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm",
+   "stars": 3403,
+   "forks": 406,
+   "open_issues": 2,
+   "license": "GPL-3.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-10-22T16:38:32Z",
+   "description": "BOM, STL files and instructions for PAROL6 3D printed robot arm",
+   "latest_release": {
+    "tag": "V1",
+    "published_at": "2025-03-08T16:51:34Z",
+    "url": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm/releases/tag/V1"
+   },
+   "commits_90d": 6,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-22T16:38:14Z",
+   "files": 7861,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 629,
+     "examples": [
+      "PAROL6 control board test code/can_parol6_test.py",
+      "Extras/LEAP motion control code/PAROL6_LEAP_code.py",
+      "Extras/LEAP motion control code/PAROL6_LEAP_comms_LEAP.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 57,
+     "examples": [
+      "STL/BASE/Electronics_case_v1_1.STL",
+      "STL/BASE/J1_bottom_lid.STL",
+      "STL/BASE/fan_cover.STL"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 64,
+     "examples": [
+      "BOM/BOM.md",
+      "BOM/BOM reference images/19mm ESTOP.png",
+      "BOM/BOM reference images/AXK3552 needle bearing.png"
+     ]
+    },
+    "docs": {
+     "found": true,
+     "count": 7444,
+     "examples": [
+      "PAROL6 control board main software/lib/SerialFlash-master/doc/w25q128fv.jpg",
+      "PAROL6 control board main software/lib/SerialFlash-master/docs/issue_template.md",
+      "PAROL6 control board main software/lib/TMCStepper-master/docs/.nojekyll"
+     ]
+    },
+    "firmware": {
+     "found": true,
+     "count": 32,
+     "examples": [
+      "PAROL6 control board main software/platformio.ini",
+      "PAROL6 control board test code/platformio.ini",
+      "PAROL6 control board main software/lib/SerialFlash-master/examples/CopyFromSD/CopyFromSD.ino"
+     ]
+    },
+    "sim": {
+     "found": true,
+     "count": 2,
+     "examples": [
+      "PAROL6_URDF/PAROL6/urdf/PAROL6.csv",
+      "PAROL6_URDF/PAROL6/urdf/PAROL6.urdf"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 7,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "niryo-one": {
+   "repo": "NiryoRobotics/niryo_one",
+   "url": "https://github.com/NiryoRobotics/niryo_one",
+   "stars": 432,
+   "forks": 154,
+   "open_issues": 2,
+   "license": "NOASSERTION",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2020-10-08T11:37:01Z",
+   "description": "",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2020-10-08T11:36:52Z",
+   "files": 126,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": true,
+     "count": 115,
+     "examples": [
+      "Integration/STEP/1-Base_NiryoOne_V2.0.STEP",
+      "Integration/STEP/2-Shoulder_NiryoOne_V2.0.STEP",
+      "Integration/STEP/3-Arm_NiryoOne_V2.0.STEP"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 4,
+     "examples": [
+      "BOM/BOM_StepByStep.pdf",
+      "BOM/README.md",
+      "Archives  (v 1.1.0)/BOM/BOM_StepByStep.pdf"
+     ]
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE.md"
+     ]
+    }
+   },
+   "openness": 3,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "thor-arm": {
+   "repo": "AngelLM/Thor",
+   "url": "https://github.com/AngelLM/Thor",
+   "stars": 1628,
+   "forks": 275,
+   "open_issues": 5,
+   "license": "CC-BY-SA-4.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2025-05-09T14:25:31Z",
+   "description": "DIY 3D Printable Robotic Arm",
+   "latest_release": {
+    "tag": "v2.1.1",
+    "published_at": "2021-09-23T20:11:47Z",
+    "url": "https://github.com/AngelLM/Thor/releases/tag/v2.1.1"
+   },
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2025-05-09T14:25:28Z",
+   "files": 236,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": true,
+     "count": 223,
+     "examples": [
+      "freecad-src/Art1Body.fcstd",
+      "freecad-src/Art1Bot.fcstd",
+      "freecad-src/Art1FanHolder.FCStd"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 9,
+     "examples": [
+      "doc/By-sa.png",
+      "doc/ThorDimensions.png",
+      "doc/banner.png"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 3,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "turtlebot3": {
+   "repo": "ROBOTIS-GIT/turtlebot3",
+   "url": "https://github.com/ROBOTIS-GIT/turtlebot3",
+   "stars": 2086,
+   "forks": 1188,
+   "open_issues": 18,
+   "license": "Apache-2.0",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-06-15T11:50:39Z",
+   "description": "ROS packages for Turtlebot3",
+   "latest_release": {
+    "tag": "2.3.7",
+    "published_at": "2026-06-15T11:50:39Z",
+    "url": "https://github.com/ROBOTIS-GIT/turtlebot3/releases/tag/2.3.7"
+   },
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-06-15T08:19:39Z",
+   "files": 134,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 52,
+     "examples": [
+      "turtlebot3_example/setup.py",
+      "turtlebot3_teleop/setup.py",
+      "turtlebot3_bringup/launch/camera.launch.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 6,
+     "examples": [
+      "turtlebot3_description/meshes/bases/burger_base.stl",
+      "turtlebot3_description/meshes/bases/waffle_base.stl",
+      "turtlebot3_description/meshes/bases/waffle_pi_base.stl"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 4,
+     "examples": [
+      "turtlebot3_description/urdf/common_properties.urdf",
+      "turtlebot3_description/urdf/turtlebot3_burger.urdf",
+      "turtlebot3_description/urdf/turtlebot3_waffle.urdf"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "mushr": {
+   "repo": "prl-mushr/mushr",
+   "url": "https://github.com/prl-mushr/mushr",
+   "stars": 190,
+   "forks": 63,
+   "open_issues": 5,
+   "license": "BSD-3-Clause",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2026-08-14T05:10:57Z",
+   "description": "MuSHR: Multi-agent System for non-Holonomic Racing",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2022-02-10T18:19:32Z",
+   "files": 101,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "cad": {
+     "found": true,
+     "count": 24,
+     "examples": [
+      "mushr_description/meshes/base/mushr_base_collision_nano.stl",
+      "mushr_description/meshes/base/mushr_base_collision_tx2.stl",
+      "mushr_description/meshes/base/mushr_base_nano.stl"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 2,
+     "examples": [
+      "mushr_docs/hardware/mushr_nano_bill_of_materials.docx",
+      "mushr_docs/hardware/mushr_nano_bill_of_materials.pdf"
+     ]
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 8,
+     "examples": [
+      "mushr_description/robots/color.urdf.xacro",
+      "mushr_description/robots/mushr_base_nano.urdf.xacro",
+      "mushr_description/robots/mushr_base_tx2.urdf.xacro"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE.md"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "scuttle": {
+   "repo": "scuttlerobot/SCUTTLE",
+   "url": "https://github.com/scuttlerobot/SCUTTLE",
+   "stars": 92,
+   "forks": 32,
+   "open_issues": 11,
+   "license": "CC-BY-SA-4.0",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2026-08-03T16:48:52Z",
+   "description": "SCUTTLE™: Sensing, Connected, Utility Transport Taxi for Level Environments [An open-source Mobile Robot]",
+   "latest_release": null,
+   "commits_90d": 10,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-08-03T16:48:52Z",
+   "files": 94,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 68,
+     "examples": [
+      "software/python/addons/L1_compass.py",
+      "software/python/addons/L1_servos.py",
+      "software/python/addons/L1_ultrasonic.py"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 2,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "openbot": {
+   "repo": "ob-f/OpenBot",
+   "url": "https://github.com/ob-f/OpenBot",
+   "stars": 3579,
+   "forks": 686,
+   "open_issues": 33,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2026-10-25T05:13:31Z",
+   "description": "OpenBot leverages smartphones as brains for low-cost robots. We have designed a small electric vehicle that costs about $50 and serves as a robot body. Our software stack for Android smartphones supports advanced robotics workloads such as person following and real-time autonomous navigation.",
+   "latest_release": {
+    "tag": "v0.9.0",
+    "published_at": "2026-10-07T06:46:59Z",
+    "url": "https://github.com/ob-f/OpenBot/releases/tag/v0.9.0"
+   },
+   "commits_90d": 28,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-10-25T03:05:27Z",
+   "files": 2148,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 383,
+     "examples": [
+      "policy/policy_learning.ipynb",
+      "controller/node-js/vite.config.js",
+      "controller/python/common.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 137,
+     "examples": [
+      "body/phone_mount/phone_mount_bottom.step",
+      "body/phone_mount/phone_mount_bottom.stl",
+      "body/phone_mount/phone_mount_top.step"
+     ]
+    },
+    "bom": {
+     "found": true,
+     "count": 16,
+     "examples": [
+      "body/rtr/pcb/BOM_BaseBoard_Arduino_V1A.csv",
+      "body/rtr/pcb/BOM_BaseBoard_Arduino_V1B.csv",
+      "body/rtr/pcb/BOM_BaseBoard_Arduino_V1C.csv"
+     ]
+    },
+    "docs": {
+     "found": true,
+     "count": 397,
+     "examples": [
+      "docs/images/3d_print_rc_1.png",
+      "docs/images/3d_print_rc_2.png",
+      "docs/images/3d_print_rc_3.png"
+     ]
+    },
+    "firmware": {
+     "found": true,
+     "count": 9,
+     "examples": [
+      "firmware/.gitignore",
+      "firmware/README.de-DE.md",
+      "firmware/README.es-ES.md"
+     ]
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 6,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "opencat": {
+   "repo": "PetoiCamp/OpenCat-Quadruped-Robot",
+   "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
+   "stars": 5503,
+   "forks": 648,
+   "open_issues": 6,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2026-09-08T04:50:11Z",
+   "description": "An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications, AI-enhanced robotics application services, research, and DIY robotics kit development. ",
+   "latest_release": {
+    "tag": "1.2.5",
+    "published_at": "2025-06-23T10:20:29Z",
+    "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.2.5"
+   },
+   "commits_90d": 10,
+   "commits_90d_capped": false,
+   "last_commit_at": "2026-09-08T04:50:11Z",
+   "files": 328,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 119,
+     "examples": [
+      "pyUI/Calibrator.py",
+      "pyUI/Debugger.py",
+      "pyUI/FirmwareUploader.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 2,
+     "examples": [
+      "ModuleTests/testServo/servoTorqueArm.stl",
+      "pyUI/resources/tool.stl"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": true,
+     "count": 72,
+     "examples": [
+      "OpenCat.ino",
+      "ModuleTests/moduleTests.ino",
+      "src/src.ino"
+     ]
+    },
+    "sim": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "Resources/SimulationModels/bittle_simple.urdf"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 5,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "stanford-pupper": {
+   "repo": "stanfordroboticsclub/StanfordQuadruped",
+   "url": "https://github.com/stanfordroboticsclub/StanfordQuadruped",
+   "stars": 1824,
+   "forks": 670,
+   "open_issues": 24,
+   "license": "MIT",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2024-10-24T01:56:53Z",
+   "description": "",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2024-07-03T03:53:32Z",
+   "files": 31,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 24,
+     "examples": [
+      "calibrate_servos.py",
+      "run_robot.py",
+      "pupper/Config.py"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "LICENSE"
+     ]
+    }
+   },
+   "openness": 2,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "solo12": {
+   "repo": "open-dynamic-robot-initiative/robot_properties_solo",
+   "url": "https://github.com/open-dynamic-robot-initiative/robot_properties_solo",
+   "stars": 45,
+   "forks": 23,
+   "open_issues": 6,
+   "license": "BSD-3-Clause",
+   "archived": false,
+   "default_branch": "master",
+   "pushed_at": "2023-03-22T16:49:50Z",
+   "description": "",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2023-03-22T16:49:47Z",
+   "files": 103,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 18,
+     "examples": [
+      "setup.py",
+      "demos/demo_display_solo12.py",
+      "demos/demo_display_solo12_meshcat.py"
+     ]
+    },
+    "cad": {
+     "found": true,
+     "count": 27,
+     "examples": [
+      "src/robot_properties_solo/resources/meshes/stl/solo12/_solo12_visualisation_model.PDF",
+      "src/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems.png",
+      "src/robot_properties_solo/resources/meshes/stl/solo12/solo12_coordinate_systems_2.png"
+     ]
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": true,
+     "count": 4,
+     "examples": [
+      "src/robot_properties_solo/resources/xacro/leg.xacro",
+      "src/robot_properties_solo/resources/xacro/plane_with_restitution.urdf.xacro",
+      "src/robot_properties_solo/resources/xacro/solo12.urdf.xacro"
+     ]
+    },
+    "license": {
+     "found": true,
+     "count": 1,
+     "examples": [
+      "license.txt"
+     ]
+    }
+   },
+   "openness": 4,
+   "checked_at": "2026-10-25T21:23:42Z"
+  },
+  "droid-dataset": {
+   "repo": "droid-dataset/droid",
+   "url": "https://github.com/droid-dataset/droid",
+   "stars": 459,
+   "forks": 100,
+   "open_issues": 54,
+   "license": null,
+   "archived": false,
+   "default_branch": "main",
+   "pushed_at": "2025-09-15T23:51:11Z",
+   "description": "Distributed Robot Interaction Dataset.",
+   "latest_release": null,
+   "commits_90d": 0,
+   "commits_90d_capped": false,
+   "last_commit_at": "2025-09-15T23:51:11Z",
+   "files": 238,
+   "tree_truncated": false,
+   "artifacts": {
+    "code": {
+     "found": true,
+     "count": 82,
+     "examples": [
+      "setup.py",
+      "droid/__init__.py",
+      "droid/robot_env.py"
+     ]
+    },
+    "cad": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "bom": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "docs": {
+     "found": true,
+     "count": 103,
+     "examples": [
+      "docs/Gemfile",
+      "docs/_config.yml",
+      "docs/contribution-guidelines.md"
+     ]
+    },
+    "firmware": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "sim": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    },
+    "license": {
+     "found": false,
+     "count": 0,
+     "examples": []
+    }
+   },
+   "openness": 2,
+   "checked_at": "2026-10-25T21:23:42Z"
+  }
+ }
+}
