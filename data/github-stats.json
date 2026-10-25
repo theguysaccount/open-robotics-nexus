@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T21:27:35Z",
+ "generated_at": "2026-10-25T21:34:26Z",
  "source": "GitHub REST API",
  "artifacts": [
   "code",
@@ -84,7 +84,7 @@
     }
    },
    "openness": 3,
-   "checked_at": "2026-10-25T21:27:35Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "xlerobot": {
    "repo": "Vector-Wangel/XLeRobot",
@@ -102,6 +102,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-06T22:14:18Z",
    "files": 933,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -159,7 +160,7 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "alohamini": {
    "repo": "liyiteng/AlohaMini",
@@ -177,6 +178,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-07-01T16:17:18Z",
    "files": 319,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -237,7 +239,7 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "lekiwi": {
    "repo": "SIGRobotics-UIUC/LeKiwi",
@@ -255,6 +257,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-08-05T09:25:59Z",
    "files": 159,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -307,7 +310,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "low-cost-robot": {
    "repo": "AlexanderKoch-Koch/low_cost_robot",
@@ -325,6 +328,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2024-09-21T17:21:19Z",
    "files": 57,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -378,12 +382,12 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "so-arm100": {
    "repo": "TheRobotStudio/SO-ARM100",
    "url": "https://github.com/TheRobotStudio/SO-ARM100",
-   "stars": 7879,
+   "stars": 7880,
    "forks": 731,
    "open_issues": 89,
    "license": "Apache-2.0",
@@ -396,6 +400,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-06T07:26:52Z",
    "files": 241,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -447,7 +452,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "am-arm": {
    "repo": "liyiteng/AM-ARM",
@@ -465,6 +470,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-06-18T10:35:49Z",
    "files": 135,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -516,7 +522,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "openarm": {
    "repo": "enactic/openarm",
@@ -538,6 +544,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-23T13:45:56Z",
    "files": 559,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -595,7 +602,7 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "bcn3d-moveo": {
    "repo": "BCN3D/BCN3D-Moveo",
@@ -613,6 +620,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2016-10-03T14:34:48Z",
    "files": 229,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -668,7 +676,7 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "amazing-hand": {
    "repo": "pollen-robotics/AmazingHand",
@@ -690,6 +698,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-04-03T09:46:22Z",
    "files": 196,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -752,7 +761,7 @@
     }
    },
    "openness": 7,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "linorobot2": {
    "repo": "linorobot/linorobot2",
@@ -770,6 +779,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-09-29T10:52:53Z",
    "files": 136,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -807,7 +817,7 @@
     },
     "sim": {
      "found": true,
-     "count": 23,
+     "count": 25,
      "examples": [
       "linorobot2_description/urdf/2wd_properties.urdf.xacro",
       "linorobot2_description/urdf/4wd_properties.urdf.xacro",
@@ -823,7 +833,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "open-duck-mini": {
    "repo": "apirrone/Open_Duck_Mini",
@@ -841,6 +851,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-01-31T10:28:29Z",
    "files": 410,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -882,7 +893,7 @@
     },
     "sim": {
      "found": true,
-     "count": 9,
+     "count": 16,
      "examples": [
       "experiments/mujoco/.gitignore",
       "experiments/mujoco/mujoco_placo_walk_engine_demo.py",
@@ -898,7 +909,7 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "mini-pupper": {
    "repo": "mangdangroboticsclub/mini_pupper",
@@ -962,7 +973,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-10-25T21:27:35Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "stair-traversal-tutorial": {
    "repo": "tu-darmstadt-ros-pkg/autonomous_stair_traversal_tutorial",
@@ -980,6 +991,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2016-04-10T18:40:20Z",
    "files": 4,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1021,7 +1033,7 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "stair-climber-ivlabs": {
    "repo": "IvLabs/Stair-Climber",
@@ -1039,6 +1051,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2020-09-15T07:46:59Z",
    "files": 10,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1084,7 +1097,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "poppy-humanoid": {
    "repo": "poppy-project/poppy-humanoid",
@@ -1106,6 +1119,13 @@
    "commits_90d_capped": false,
    "last_commit_at": "2021-12-06T18:19:35Z",
    "files": 114,
+   "submodules": [
+    "hardware/head",
+    "hardware/lower_limbs",
+    "hardware/robotis_library",
+    "hardware/torso",
+    "hardware/upper_limbs"
+   ],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1161,7 +1181,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "reachy-mini": {
    "repo": "pollen-robotics/reachy_mini",
@@ -1183,6 +1203,7 @@
    "commits_90d_capped": true,
    "last_commit_at": "2026-10-23T12:42:47Z",
    "files": 933,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1244,7 +1265,7 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "lerobot": {
    "repo": "huggingface/lerobot",
@@ -1318,7 +1339,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:27:35Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "awesome-open-source-robots": {
    "repo": "stephane-caron/awesome-open-source-robots",
@@ -1336,6 +1357,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-11T11:14:13Z",
    "files": 20,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1377,7 +1399,7 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "awesome-robotic-arms": {
    "repo": "adafruit/awesome-open-source-robotic-arms",
@@ -1395,6 +1417,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-07T18:08:51Z",
    "files": 4,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1436,7 +1459,7 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "awesome-humanoid-learning": {
    "repo": "YanjieZe/awesome-humanoid-robot-learning",
@@ -1454,6 +1477,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-23T02:08:32Z",
    "files": 13,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1499,7 +1523,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "robot-descriptions": {
    "repo": "robot-descriptions/awesome-robot-descriptions",
@@ -1517,6 +1541,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-11T11:12:34Z",
    "files": 59,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1558,7 +1583,7 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "asimov-v1": {
    "repo": "menloresearch/asimov-1",
@@ -1576,6 +1601,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-22T11:38:54Z",
    "files": 362,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1628,7 +1654,7 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "robotis-op3": {
    "repo": "ROBOTIS-GIT/ROBOTIS-OP3",
@@ -1650,6 +1676,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2024-12-13T19:04:51Z",
    "files": 100,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1682,9 +1709,11 @@
      "examples": []
     },
     "sim": {
-     "found": false,
-     "count": 0,
-     "examples": []
+     "found": true,
+     "count": 1,
+     "examples": [
+      "op3_manager/launch/op3_gazebo.launch"
+     ]
     },
     "license": {
      "found": true,
@@ -1694,8 +1723,8 @@
      ]
     }
    },
-   "openness": 2,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "openness": 3,
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "open-manipulator-x": {
    "repo": "ROBOTIS-GIT/open_manipulator",
@@ -1717,6 +1746,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-19T07:49:25Z",
    "files": 318,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1754,11 +1784,11 @@
     },
     "sim": {
      "found": true,
-     "count": 44,
+     "count": 50,
      "examples": [
-      "open_manipulator_bringup/worlds/empty_world.sdf",
-      "open_manipulator_description/gazebo/omx_f.gazebo.xacro",
-      "open_manipulator_description/gazebo/omx_l.gazebo.xacro"
+      "open_manipulator_bringup/launch/omx_f_follower_ai_gazebo.launch.py",
+      "open_manipulator_bringup/launch/omx_f_gazebo.launch.py",
+      "open_manipulator_bringup/launch/omy_3m_gazebo.launch.py"
      ]
     },
     "license": {
@@ -1770,7 +1800,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "parol6": {
    "repo": "Source-Robotics/PAROL6-Desktop-robot-arm",
@@ -1792,6 +1822,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-22T16:38:14Z",
    "files": 7861,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1841,8 +1872,9 @@
     },
     "sim": {
      "found": true,
-     "count": 2,
+     "count": 3,
      "examples": [
+      "PAROL6_URDF/PAROL6/launch/gazebo.launch",
       "PAROL6_URDF/PAROL6/urdf/PAROL6.csv",
       "PAROL6_URDF/PAROL6/urdf/PAROL6.urdf"
      ]
@@ -1856,7 +1888,7 @@
     }
    },
    "openness": 7,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "niryo-one": {
    "repo": "NiryoRobotics/niryo_one",
@@ -1874,6 +1906,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2020-10-08T11:36:52Z",
    "files": 126,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1923,7 +1956,7 @@
     }
    },
    "openness": 3,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "thor-arm": {
    "repo": "AngelLM/Thor",
@@ -1945,6 +1978,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2025-05-09T14:25:28Z",
    "files": 236,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -1994,7 +2028,7 @@
     }
    },
    "openness": 3,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "turtlebot3": {
    "repo": "ROBOTIS-GIT/turtlebot3",
@@ -2016,6 +2050,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-06-15T08:19:39Z",
    "files": 134,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2069,7 +2104,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "mushr": {
    "repo": "prl-mushr/mushr",
@@ -2087,6 +2122,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2022-02-10T18:19:32Z",
    "files": 101,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2139,7 +2175,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "scuttle": {
    "repo": "scuttlerobot/SCUTTLE",
@@ -2157,6 +2193,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-08-03T16:48:52Z",
    "files": 94,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2202,7 +2239,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "openbot": {
    "repo": "ob-f/OpenBot",
@@ -2224,6 +2261,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-10-25T03:05:27Z",
    "files": 2148,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2285,7 +2323,7 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "opencat": {
    "repo": "PetoiCamp/OpenCat-Quadruped-Robot",
@@ -2307,6 +2345,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2026-09-08T04:50:11Z",
    "files": 328,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2361,7 +2400,7 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "stanford-pupper": {
    "repo": "stanfordroboticsclub/StanfordQuadruped",
@@ -2379,6 +2418,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2024-07-03T03:53:32Z",
    "files": 31,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2424,7 +2464,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "solo12": {
    "repo": "open-dynamic-robot-initiative/robot_properties_solo",
@@ -2442,6 +2482,7 @@
    "commits_90d_capped": false,
    "last_commit_at": "2023-03-22T16:49:47Z",
    "files": 103,
+   "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2495,7 +2536,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   },
   "droid-dataset": {
    "repo": "droid-dataset/droid",
@@ -2513,6 +2554,10 @@
    "commits_90d_capped": false,
    "last_commit_at": "2025-09-15T23:51:11Z",
    "files": 238,
+   "submodules": [
+    "droid/fairo",
+    "droid/oculus_reader"
+   ],
    "tree_truncated": false,
    "artifacts": {
     "code": {
@@ -2560,7 +2605,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-10-25T21:23:42Z"
+   "checked_at": "2026-10-25T21:34:26Z"
   }
  }
 }
