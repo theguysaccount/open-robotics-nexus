@@ -85,6 +85,8 @@ class Generated(unittest.TestCase):
                 for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', page):
                     json.loads(block)
                 self.assertNotIn("<script src=", page)  # static pages work without JavaScript
+                for href in re.findall(r'href="([^"]*)"', page):
+                    self.assertNotIn(" ", href)
 
     def test_sitemap_urls_resolve_to_files(self):
         root = ET.fromstring(self.files[ROOT / "sitemap.xml"])

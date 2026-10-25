@@ -18,6 +18,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import catalog  # noqa: E402
@@ -148,7 +149,7 @@ def found_list(st: dict) -> str:
         info = st["artifacts"][a]
         if info["found"]:
             ex = ", ".join(
-                f'<a href="https://github.com/{E(repo)}/{"tree" if p.endswith("/") else "blob"}/{E(branch)}/{E(p.rstrip("/"))}"><code>{E(p)}</code></a>'
+                f'<a href="https://github.com/{E(repo)}/{"tree" if p.endswith("/") else "blob"}/{E(quote(branch))}/{E(quote(p.rstrip("/")))}"><code>{E(p)}</code></a>'
                 for p in info["examples"])
             more = f" and {info['count'] - len(info['examples'])} more" if info["count"] > len(info["examples"]) else ""
             rows.append(f"<li><strong>{LABELS[a]}:</strong> {ex or 'declared license'}{more}</li>")
@@ -243,7 +244,7 @@ def project_page(p: dict, st: dict | None, siblings: list[dict], lanes: dict) ->
           </div>
           <aside class="project-side-panel">
             <div class="detail-meta stacked">
-              <div><span>Lane</span><strong><a href="../lane.html?lane={E(p['lane'])}">{E(p['lane'])}</a></strong></div>
+              <div><span>Lane</span><strong><a href="../lane.html?lane={E(quote(p['lane']))}">{E(p['lane'])}</a></strong></div>
               <div><span>Maturity</span><strong>{E(p['maturity'])}</strong></div>
               <div><span>Maintainer</span><strong>{E(p['maintainer'])}</strong></div>
               <div><span>Cost</span><strong>{E(p['cost'])}</strong></div>
