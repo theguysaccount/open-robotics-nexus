@@ -1,6 +1,5 @@
-# Crawlers only read robots.txt at the host root (https://theguysaccount.github.io/robots.txt),
-# which is generated from this file's Sitemap line. Kept here so the sitemap is easy to find.
+# Served at the host root of the custom domain, so crawlers read this file's Sitemap line.
 User-agent: *
 Allow: /
 
-Sitemap: https://theguysaccount.github.io/open-robotics-nexus/sitemap.xml
+Sitemap: https://nexus.roboticshouse.org/sitemap.xml

@@ -17,6 +17,11 @@ concurrency:
   group: refresh
   cancel-in-progress: false
 
+# Custom domain (OPERATIONS.md key 1): canonical URLs, badges, sitemap, health checks and IndexNow
+# follow this repository variable; ops/build.py falls back to the same domain when it is unset.
+env:
+  ORN_BASE_URL: ${{ vars.ORN_BASE_URL }}
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -58,4 +63,4 @@ jobs:
 
       - name: Ping IndexNow with the pages that changed
         if: steps.commit.outputs.changed == 'true'
-        run: python3 ops/indexnow.py --key-file 23cb19988fae6276e078102ebd6ec6da.txt --base "https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}/" --urls-file "$RUNNER_TEMP/changed-urls.txt"
+        run: python3 ops/indexnow.py --key-file 23cb19988fae6276e078102ebd6ec6da.txt --base "${ORN_BASE_URL:-https://nexus.roboticshouse.org/}" --urls-file "$RUNNER_TEMP/changed-urls.txt"

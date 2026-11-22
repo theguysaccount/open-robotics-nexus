@@ -10,6 +10,11 @@ on:
 permissions:
   contents: read
 
+# Custom domain (OPERATIONS.md key 1): canonical URLs, badges, sitemap, health checks and IndexNow
+# follow this repository variable; ops/build.py falls back to the same domain when it is unset.
+env:
+  ORN_BASE_URL: ${{ vars.ORN_BASE_URL }}
+
 jobs:
   health:
     runs-on: ubuntu-latest

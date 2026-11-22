@@ -25,7 +25,7 @@ import catalog  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 STATS = ROOT / "data" / "github-stats.json"
-BASE = (os.environ.get("ORN_BASE_URL") or "https://theguysaccount.github.io/open-robotics-nexus/").rstrip("/") + "/"
+BASE = (os.environ.get("ORN_BASE_URL") or "https://nexus.roboticshouse.org/").rstrip("/") + "/"
 REPO = "https://github.com/theguysaccount/open-robotics-nexus"
 ARTIFACTS = ("code", "cad", "bom", "docs", "firmware", "sim", "license")
 LABELS = {"code": "Code", "cad": "CAD", "bom": "BOM", "docs": "Docs", "firmware": "Firmware", "sim": "Sim", "license": "License"}
@@ -344,8 +344,7 @@ def sitemap(projects: list[dict], stats: dict, generated: str) -> str:
 
 
 def robots() -> str:
-    return ("# Crawlers only read robots.txt at the host root (https://theguysaccount.github.io/robots.txt),\n"
-            "# which is generated from this file's Sitemap line. Kept here so the sitemap is easy to find.\n"
+    return ("# Served at the host root of the custom domain, so crawlers read this file's Sitemap line.\n"
             f"User-agent: *\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n")
 
 

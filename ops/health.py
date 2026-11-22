@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import Checks, fetch, sitemap_locs, wait_for_pages_build  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE = (os.environ.get("ORN_BASE_URL") or "https://theguysaccount.github.io/open-robotics-nexus/").rstrip("/") + "/"
+BASE = (os.environ.get("ORN_BASE_URL") or "https://nexus.roboticshouse.org/").rstrip("/") + "/"
 PAGES = ["", "lanes.html", "lane.html?lane=Arms", "project.html?id=parol6", "agents.html", "ai.html", "app.js", "styles.css"]
 WARN_HOURS, FAIL_HOURS = 30, 72  # the refresh runs nightly
 LUCIDE = "https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"
