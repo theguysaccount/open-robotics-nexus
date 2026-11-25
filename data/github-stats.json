@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T14:17:54Z",
+ "generated_at": "2026-11-25T13:31:31Z",
  "source": "GitHub REST API",
  "artifacts": [
   "code",
@@ -14,7 +14,7 @@
   "berkeley-humanoid-lite": {
    "repo": "HybridRobotics/berkeley-humanoid-lite",
    "url": "https://github.com/HybridRobotics/berkeley-humanoid-lite",
-   "stars": 2030,
+   "stars": 2032,
    "forks": 325,
    "open_issues": 8,
    "license": "MIT",
@@ -84,12 +84,12 @@
     }
    },
    "openness": 3,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "xlerobot": {
    "repo": "Vector-Wangel/XLeRobot",
    "url": "https://github.com/Vector-Wangel/XLeRobot",
-   "stars": 5857,
+   "stars": 5861,
    "forks": 639,
    "open_issues": 42,
    "license": "Apache-2.0",
@@ -160,12 +160,12 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "alohamini": {
    "repo": "liyiteng/AlohaMini",
    "url": "https://github.com/liyiteng/AlohaMini",
-   "stars": 1109,
+   "stars": 1110,
    "forks": 140,
    "open_issues": 7,
    "license": "Apache-2.0",
@@ -239,13 +239,13 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "lekiwi": {
    "repo": "SIGRobotics-UIUC/LeKiwi",
    "url": "https://github.com/SIGRobotics-UIUC/LeKiwi",
-   "stars": 1525,
-   "forks": 168,
+   "stars": 1526,
+   "forks": 169,
    "open_issues": 14,
    "license": "Apache-2.0",
    "archived": false,
@@ -310,7 +310,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "low-cost-robot": {
    "repo": "AlexanderKoch-Koch/low_cost_robot",
@@ -382,13 +382,13 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "so-arm100": {
    "repo": "TheRobotStudio/SO-ARM100",
    "url": "https://github.com/TheRobotStudio/SO-ARM100",
-   "stars": 8206,
-   "forks": 767,
+   "stars": 8216,
+   "forks": 769,
    "open_issues": 90,
    "license": "Apache-2.0",
    "archived": false,
@@ -452,7 +452,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "am-arm": {
    "repo": "liyiteng/AM-ARM",
@@ -522,27 +522,27 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "openarm": {
    "repo": "enactic/openarm",
    "url": "https://github.com/enactic/openarm",
-   "stars": 3720,
-   "forks": 401,
-   "open_issues": 18,
+   "stars": 3723,
+   "forks": 403,
+   "open_issues": 17,
    "license": "Apache-2.0",
    "archived": false,
    "default_branch": "main",
-   "pushed_at": "2026-11-23T05:24:04Z",
+   "pushed_at": "2026-11-25T05:52:05Z",
    "description": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
    "latest_release": {
     "tag": "1.1",
     "published_at": "2025-10-31T11:41:47Z",
     "url": "https://github.com/enactic/openarm/releases/tag/1.1"
    },
-   "commits_90d": 70,
+   "commits_90d": 71,
    "commits_90d_capped": false,
-   "last_commit_at": "2026-11-23T05:24:01Z",
+   "last_commit_at": "2026-11-25T05:52:04Z",
    "files": 554,
    "submodules": [],
    "tree_truncated": false,
@@ -602,7 +602,7 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "bcn3d-moveo": {
    "repo": "BCN3D/BCN3D-Moveo",
@@ -676,13 +676,13 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "amazing-hand": {
    "repo": "pollen-robotics/AmazingHand",
    "url": "https://github.com/pollen-robotics/AmazingHand",
-   "stars": 2572,
-   "forks": 305,
+   "stars": 2575,
+   "forks": 306,
    "open_issues": 23,
    "license": "Apache-2.0",
    "archived": false,
@@ -761,12 +761,12 @@
     }
    },
    "openness": 7,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "linorobot2": {
    "repo": "linorobot/linorobot2",
    "url": "https://github.com/linorobot/linorobot2",
-   "stars": 1091,
+   "stars": 1092,
    "forks": 248,
    "open_issues": 51,
    "license": "Apache-2.0",
@@ -833,12 +833,12 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "open-duck-mini": {
    "repo": "apirrone/Open_Duck_Mini",
    "url": "https://github.com/apirrone/Open_Duck_Mini",
-   "stars": 4782,
+   "stars": 4788,
    "forks": 625,
    "open_issues": 32,
    "license": "Apache-2.0",
@@ -909,23 +909,23 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "mini-pupper": {
    "repo": "mangdangroboticsclub/mini_pupper",
    "url": "https://github.com/mangdangroboticsclub/mini_pupper",
-   "stars": 1205,
+   "stars": 1206,
    "forks": 205,
    "open_issues": 0,
    "license": "Apache-2.0",
    "archived": false,
    "default_branch": "main",
-   "pushed_at": "2026-11-06T02:53:51Z",
+   "pushed_at": "2026-11-25T10:12:34Z",
    "description": "Open-source physical AI platform bridging ROS and RL — from learning to earning.",
    "latest_release": null,
-   "commits_90d": 50,
+   "commits_90d": 51,
    "commits_90d_capped": false,
-   "last_commit_at": "2026-11-06T02:53:42Z",
+   "last_commit_at": "2026-11-25T10:12:28Z",
    "files": 20,
    "submodules": [],
    "tree_truncated": false,
@@ -973,7 +973,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "stair-traversal-tutorial": {
    "repo": "tu-darmstadt-ros-pkg/autonomous_stair_traversal_tutorial",
@@ -1033,7 +1033,7 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "stair-climber-ivlabs": {
    "repo": "IvLabs/Stair-Climber",
@@ -1097,7 +1097,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "poppy-humanoid": {
    "repo": "poppy-project/poppy-humanoid",
@@ -1181,18 +1181,18 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "reachy-mini": {
    "repo": "pollen-robotics/reachy_mini",
    "url": "https://github.com/pollen-robotics/reachy_mini",
-   "stars": 1686,
-   "forks": 354,
+   "stars": 1689,
+   "forks": 355,
    "open_issues": 144,
    "license": "Apache-2.0",
    "archived": false,
    "default_branch": "main",
-   "pushed_at": "2026-11-24T10:58:28Z",
+   "pushed_at": "2026-11-25T09:06:54Z",
    "description": "Reachy Mini's SDK",
    "latest_release": {
     "tag": "v1.15.0",
@@ -1201,7 +1201,7 @@
    },
    "commits_90d": 100,
    "commits_90d_capped": true,
-   "last_commit_at": "2026-11-24T10:50:53Z",
+   "last_commit_at": "2026-11-25T09:02:33Z",
    "files": 908,
    "submodules": [],
    "tree_truncated": false,
@@ -1265,18 +1265,18 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "lerobot": {
    "repo": "huggingface/lerobot",
    "url": "https://github.com/huggingface/lerobot",
-   "stars": 29064,
-   "forks": 6132,
+   "stars": 29082,
+   "forks": 6134,
    "open_issues": 1019,
    "license": "Apache-2.0",
    "archived": false,
    "default_branch": "main",
-   "pushed_at": "2026-11-24T14:16:25Z",
+   "pushed_at": "2026-11-25T13:03:09Z",
    "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
    "latest_release": {
     "tag": "v0.7.0",
@@ -1285,14 +1285,14 @@
    },
    "commits_90d": 100,
    "commits_90d_capped": true,
-   "last_commit_at": "2026-11-24T10:35:58Z",
-   "files": 1452,
+   "last_commit_at": "2026-11-24T17:20:42Z",
+   "files": 1454,
    "submodules": [],
    "tree_truncated": false,
    "artifacts": {
     "code": {
      "found": true,
-     "count": 1136,
+     "count": 1138,
      "examples": [
       "conftest.py",
       "setup.py",
@@ -1341,7 +1341,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "awesome-open-source-robots": {
    "repo": "stephane-caron/awesome-open-source-robots",
@@ -1401,7 +1401,7 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "awesome-robotic-arms": {
    "repo": "adafruit/awesome-open-source-robotic-arms",
@@ -1461,23 +1461,23 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "awesome-humanoid-learning": {
    "repo": "YanjieZe/awesome-humanoid-robot-learning",
    "url": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
-   "stars": 2910,
+   "stars": 2914,
    "forks": 169,
    "open_issues": 1,
    "license": "MIT",
    "archived": false,
    "default_branch": "main",
-   "pushed_at": "2026-11-24T13:07:03Z",
+   "pushed_at": "2026-11-25T13:07:05Z",
    "description": "A Paper List for Humanoid Robot Learning.",
    "latest_release": null,
    "commits_90d": 100,
    "commits_90d_capped": true,
-   "last_commit_at": "2026-11-24T13:06:58Z",
+   "last_commit_at": "2026-11-25T13:07:00Z",
    "files": 13,
    "submodules": [],
    "tree_truncated": false,
@@ -1525,13 +1525,13 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "robot-descriptions": {
    "repo": "robot-descriptions/awesome-robot-descriptions",
    "url": "https://github.com/robot-descriptions/awesome-robot-descriptions",
-   "stars": 1706,
-   "forks": 150,
+   "stars": 1708,
+   "forks": 151,
    "open_issues": 2,
    "license": "CC0-1.0",
    "archived": false,
@@ -1585,12 +1585,12 @@
     }
    },
    "openness": 1,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "asimov-v1": {
    "repo": "menloresearch/asimov-1",
    "url": "https://github.com/menloresearch/asimov-1",
-   "stars": 1603,
+   "stars": 1604,
    "forks": 261,
    "open_issues": 7,
    "license": "CERN-OHL-S-2.0",
@@ -1658,13 +1658,13 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "robotis-op3": {
    "repo": "ROBOTIS-GIT/ROBOTIS-OP3",
    "url": "https://github.com/ROBOTIS-GIT/ROBOTIS-OP3",
-   "stars": 165,
-   "forks": 64,
+   "stars": 166,
+   "forks": 65,
    "open_issues": 6,
    "license": "Apache-2.0",
    "archived": false,
@@ -1728,7 +1728,7 @@
     }
    },
    "openness": 3,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "open-manipulator-x": {
    "repo": "ROBOTIS-GIT/open_manipulator",
@@ -1804,12 +1804,12 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "parol6": {
    "repo": "Source-Robotics/PAROL6-Desktop-robot-arm",
    "url": "https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm",
-   "stars": 3508,
+   "stars": 3509,
    "forks": 420,
    "open_issues": 1,
    "license": "CERN-OHL-S-2.0",
@@ -1888,7 +1888,7 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "niryo-one": {
    "repo": "NiryoRobotics/niryo_one",
@@ -1956,13 +1956,13 @@
     }
    },
    "openness": 3,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "thor-arm": {
    "repo": "AngelLM/Thor",
    "url": "https://github.com/AngelLM/Thor",
    "stars": 1661,
-   "forks": 278,
+   "forks": 279,
    "open_issues": 5,
    "license": "CC-BY-SA-4.0",
    "archived": false,
@@ -2028,7 +2028,7 @@
     }
    },
    "openness": 3,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "turtlebot3": {
    "repo": "ROBOTIS-GIT/turtlebot3",
@@ -2104,7 +2104,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "mushr": {
    "repo": "prl-mushr/mushr",
@@ -2175,7 +2175,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "scuttle": {
    "repo": "scuttlerobot/SCUTTLE",
@@ -2239,14 +2239,14 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "openbot": {
    "repo": "ob-f/OpenBot",
    "url": "https://github.com/ob-f/OpenBot",
-   "stars": 3686,
+   "stars": 3691,
    "forks": 699,
-   "open_issues": 30,
+   "open_issues": 31,
    "license": "MIT",
    "archived": false,
    "default_branch": "master",
@@ -2323,12 +2323,12 @@
     }
    },
    "openness": 6,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "opencat": {
    "repo": "PetoiCamp/OpenCat-Quadruped-Robot",
    "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
-   "stars": 5585,
+   "stars": 5586,
    "forks": 664,
    "open_issues": 6,
    "license": "MIT",
@@ -2400,13 +2400,13 @@
     }
    },
    "openness": 5,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "stanford-pupper": {
    "repo": "stanfordroboticsclub/StanfordQuadruped",
    "url": "https://github.com/stanfordroboticsclub/StanfordQuadruped",
    "stars": 1836,
-   "forks": 671,
+   "forks": 672,
    "open_issues": 24,
    "license": "MIT",
    "archived": false,
@@ -2464,7 +2464,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "solo12": {
    "repo": "open-dynamic-robot-initiative/robot_properties_solo",
@@ -2536,7 +2536,7 @@
     }
    },
    "openness": 4,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   },
   "droid-dataset": {
    "repo": "droid-dataset/droid",
@@ -2605,7 +2605,7 @@
     }
    },
    "openness": 2,
-   "checked_at": "2026-11-24T14:17:54Z"
+   "checked_at": "2026-11-25T13:31:31Z"
   }
  }
 }
